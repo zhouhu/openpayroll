@@ -1,6 +1,12 @@
 # openpayroll
 Openpayroll is a free, online and open source payroll software designed for small businesses. It is currently designed for and conforms to  the Kenyan tax standards. It is built with PHP 7, Bootstrap, jQuery, RESTful API etc. 
 
+Requirements
+
+PHP 7
+Database (eg: MySQL, PostgreSQL)
+Web Server (eg: Apache, Nginx, IIS)
+
 Contributing
 
 Fork the repository, make the code changes then submit a pull request.

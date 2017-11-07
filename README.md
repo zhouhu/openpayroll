@@ -4,7 +4,9 @@ Openpayroll is a free, online and open source payroll software designed for smal
 Requirements
 
 PHP 7
+
 Database (eg: MySQL, PostgreSQL)
+
 Web Server (eg: Apache, Nginx, IIS)
 
 Contributing

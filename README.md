@@ -44,6 +44,12 @@ Extract the OpenPayroll zip file in the document root of Apache HTTP server
 
 Once xtracted, edit the file /assets/classes/class.db.php with your respective details
 
+The database dump file is located in teh /database directory
+
+User details are:
+info@democompany.org
+123456
+
 <h2>Contributing</h2></h2>
 
 Fork the repository, make the code changes then submit a pull request.

@@ -32,8 +32,15 @@ d. GD library (for images) To install GD library in Linux, open the terminal and
  1. #apt-get install php7-gd
 e. Open SSL (For SSL and TSL Protocols) Download the OpenSSL 1.0.1c tarball archive from the OpenSSL web site at http://www.openssl.org/source/
 
-Contributing
+Copying files
+Move OpenPayroll zip file into the document root of Apache HTTP server.
+If you used XAMPP for windows, document root is \htdocs\
+For example: C:\xampp\htdocs\
 
+Extracting
+Extract the OpenPayroll zip file in the document root of Apache HTTP server
+
+Contributing
 Fork the repository, make the code changes then submit a pull request.
 
 Please, be very clear on your commit messages and pull requests, empty pull request messages may be rejected without reason.

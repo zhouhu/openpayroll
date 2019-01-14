@@ -1,0 +1,68 @@
+/*Further custom styling*/
+
+.top-spacer-40{margin-top: 40px;}
+.top-spacer-60{margin-top: 60px;}
+.top-spacer-20{margin-top: 20px;}
+.top-spacer-5{margin-top: 5px;}
+.bottom-spacer-20{margin-bottom: 20px;}
+.bottom-spacer-40{margin-bottom: 40px;}
+.emp-details{color: #e7505a; font-size: 22px;font-weight: 600;}
+.thead-blue{background: #535b65!important;color: #FFF!important;}
+.earnings-ded-header{background: #becce8;}
+.earnings-row{background: #e5e8ef;}
+.lighter-row{background: #F3F4F6;}
+.align-right{text-align: right;}
+.net-pay{background: #F3F4F6;}
+.small-txt{font-size: 12px!important;}
+.txt-ctr{text-align: center;}
+.txt-right{text-align: right;}
+.portlet .page-title{margin-top: 10px;}
+.btn.black:not(.btn-outline){background-color: #000; border-color: #000;color: #FFF;}
+.helper-para{padding: 15px;border-radius: 5px;}
+.table .btn {margin-right: 0px!important}
+.alert-success{background-color: #d5f0f3; color: #376165;}
+.login .content h3{font-size: 23px;letter-spacing: -1px;}
+.login-button{background-color: #16468A!important;}
+.stylecaps{text-transform: capitalize;}
+.txt-bold{font-weight: 700;}
+.p9headers{padding: 3px 0;}
+.p9headertop{padding-top: 3px;}
+.p9{font-size: 13px!important;}
+.p9 .table thead tr th, .table td{font-size: 13px!important;}
+
+.modal .modal-title { font-weight: 400;color: #FFF; text-transform: uppercase;text-align: center; font-size: 100%;}
+.modal .modal-header{ background: #6e7dc7;}
+.payperiod{margin:10px 0 6px 0;}
+.empname{color: #282bc3;letter-spacing: -1px;}
+.empnamesize{font-size: 24px;color: #000;text-transform: capitalize;}
+.empnumbersize{font-size: 18px;color: #ea0e0e}
+.btn:not(.md-skip):not(.bs-select-all):not(.bs-deselect-all).btn-zs{font-size: 10px; padding: 2px 5px;}
+
+.auth .content {background-color: #fff;-webkit-border-radius: 7px;-moz-border-radius: 7px;-ms-border-radius: 7px;-o-border-radius: 7px;border-radius: 7px;width: 700px;margin: 40px auto 10px;padding: 10px 30px 30px;overflow: hidden;position: relative;}
+.auth {background: url(../../../assets/img/bg4.jpg) #8192a9 no-repeat;background-size: cover;}
+.auth .logo {margin: 60px auto 0; padding: 15px;text-align: center;color: #000;font-size: 18px;font-weight: 600;}
+.auth .copyright {text-align: center;margin: 0 auto 30px 0;text-shadow: 1px 1px #000;padding: 10px;color: #FFF;font-size: 13px;}
+
+/*Payslip layout configuration*/
+.payslip-wrapper{margin: 5px; font-size: 100%; font-family: monospace;}
+.payslip-header{ padding-bottom: 5px;margin: 5px 0; border-bottom: 1px dashed #ccc;}
+.payslip-body{padding-bottom: 3px;margin: 5px 0;}
+.payslip-title{font-weight: bold;border-bottom: 2px dashed #ccc;}
+.pay-header-item{width: 30%;text-transform: capitalize;}
+.header-label{padding: 5px 0;}
+.payslip-amount{text-align: right;}
+.payslip-data{padding:2px 0;}
+.payslip-total{padding:2px 0; margin-top:5px; border-bottom: #ccc double;border-top:#ccc double;}
+
+.bar-left-menu{margin: 0;padding: 0;}
+.bar-style{color: #FFF; line-height: 14px; padding: 17px 10px 10px 50px; text-transform: uppercase;}
+
+
+@media print {
+    header, .footer, footer {
+        display: none;
+    }
+
+   @page{size:auto; margin:5mm;}
+   .payslip-wrapper{max-width: 360px; margin-bottom: 20px;page-break-after: always;}
+}

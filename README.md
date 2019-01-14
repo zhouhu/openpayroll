@@ -9,6 +9,28 @@ Database (eg: MySQL, PostgreSQL)
 
 Web Server (eg: Apache, Nginx, IIS)
 
+Pre-requisites
+
+The system requirements for installing OpenPayroll are described below. Make sure your system meets these requirements.
+
+a. Built for PHP 7.0 and above. It can work with PHP 5.3 or later but no guarantees can be given. To install PHP 7.x on Linux, please follow the below links:
+
+ For Ubuntu: https://www.digitalocean.com/community/questions/how-to-install-php7-0-fpm-on-ubuntu-18-04-server
+ For Redhat and CentOS: http://www.thetechnicalstuff.com/install-php7.0-in-centos-and-redhat/
+b. PDO MySQL (for MySQL connection) To install OpenPayroll on Linux, you can compile php with --with-pdo-mysql in your php.ini, and add the following lines:
+
+ 1. extension=pdo.so
+ 2. extension=pdo_mysql.so
+c. Rewrite module (for working of MVC architecture) activate mod_rewrite in linux, open the terminal and add the below line:
+
+ 1. sudo a2enmod rewrite
+ 
+ You also need to make sure that in your httpd.conf, AllowOverride is enabled:
+ 2. AllowOverride All
+d. GD library (for images) To install GD library in Linux, open the terminal and add the below lines:
+
+ 1. #apt-get install php7-gd
+e. Open SSL (For SSL and TSL Protocols) Download the OpenSSL 1.0.1c tarball archive from the OpenSSL web site at http://www.openssl.org/source/
 
 Contributing
 
